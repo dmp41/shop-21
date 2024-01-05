@@ -9,6 +9,7 @@
       <div class="col-md-12">
         <h2>{{ product.title }} </h2>
         <img src="{{ product.image.url }}" width="120">
+        <p>{{ product.price }} руб.</p>
         <p>{{ product.description }}</p>
         {% include 'cart/add_to_cart.html' %}
       </div>
